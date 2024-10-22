@@ -27,7 +27,7 @@ services:
     networks:
       - app-network
 
-  app:
+  backend:
     build:
       context: server
     container_name: expenses-server
